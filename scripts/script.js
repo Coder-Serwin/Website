@@ -14,7 +14,7 @@ document.addEventListener('mousemove',function(e){
     heart.style.transform = 'rotate(' + transformValue + 'deg)';
 
     body.appendChild(heart);
-    heart.style.opacity = 0;
+    heart.style.opacity = 0.5;
 
     setTimeout(function(){
         heart.remove();

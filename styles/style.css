@@ -6,7 +6,7 @@
 
 body {
     min-height: 100vh;
-    background-color: #111;
+    background-color: #110;
     overflow: hidden;
 }
 
@@ -32,7 +32,7 @@ span::before {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: url(".png");
+    background: url("circle.jpg");
     background-size: cover;
     animation: moveShape 1s linear infinite;
 }
